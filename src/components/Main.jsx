@@ -1,11 +1,12 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter,FaFacebookF, FaInstagram,FaLinkedinIn } from 'react-icons/fa'
+import bgImg from '../assets/images/bg1.jpg'
 /* img 28:43 */
 const Main = () => {
   return (
     <div id ='main'>  
-        <img className='w-full h-screen object-cover object-left scale-x-[1] 'src="src\assets\images\bg1.jpg" 
+        <img className='w-full h-screen object-cover object-left scale-x-[1] 'src={bgImg} 
           alt="" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
         
