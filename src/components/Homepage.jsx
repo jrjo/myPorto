@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import Work from './components/work'
-import Uni from './components/Uni'
-import Certificates from './components/Certificates'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
+import Sidenav from './Sidenav'
+import Main from './Main'
+import Work from './work'
+import Uni from './Uni'
+import Certificates from './Certificates'
+import Contact from './Contact'
+import Projects from './Projects'
 function Homepage() {
 
   return (
