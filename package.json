@@ -1,19 +1,21 @@
 {
+  "homepage": "https://jrjo.github.io/myPorto/",
   "name": "myportofolio",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
+    "react-router-dom": "^7.0.2",
     "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
