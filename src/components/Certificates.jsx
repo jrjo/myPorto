@@ -7,7 +7,7 @@ import csiemensImg from '../assets/images/csiemens.jpg'
 const Certificates = () => {
   return (
     <div id='certificates' className='max-w[1040px] m-auto md:pl-20 p-4 py-16'>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Certificates</h1>
+        <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>Certificates</h1>
 
     <div className='grid sm:grid-cols-2 gap-12'>
         <CertificateItems img={cmedicalImg} title='Medical image Processing'></CertificateItems>

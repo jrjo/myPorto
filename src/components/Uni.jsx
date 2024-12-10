@@ -20,7 +20,7 @@ const data=[
 const Uni = () => {
   return (
     <div id='uni' className='max-w-[1040px] m-auto md:pl-20 p-55 py-16'>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e'>Education</h1>
+        <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>Education</h1>
         {data.map((item, idx)=>(
             <UniItem   key={idx} 
                         year={item.year} 

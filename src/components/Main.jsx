@@ -10,8 +10,9 @@ const Main = () => {
           alt="" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
         
-<div className='max-w-[500px] m-auto h-64 w-full flex flex-col justify-center lg:items-start items-center  '>          <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Alvin Jordan</h1>
-          <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 max-w-[400px] '>
+<div className='max-w-[500px] m-auto h-64 w-full flex flex-col justify-center lg:items-start items-center  '>         
+     <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Alvin Jordan</h1>
+          <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 max-w-[1000px] '>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially

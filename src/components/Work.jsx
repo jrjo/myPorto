@@ -21,20 +21,20 @@ const data=[
         title: 'KL-TRONIK',
         place: 'Kaiserslautern, Deutschland',
         details:
-        'aaaaaaaaaaaaaaaaaaaaaaaa'
+        'Praktikant und Hilfskraft in der Werkstatt (beschäftigte sich mit einer breiten Palette von elektrischen Projekten, einschließlich manueller Arbeit sowie Programmierung, Löten, Reparatur und Sortierung.) '
     },
     {
         year: '10/2018-11/2018',
         title: ' PT.SARI MULTI UTAMA',
         place: 'Pasuruan, Indonesien',
         details:
-        'aaaaaaaaaaaaaaaaaaaaaaaa'
+        'Praktikant (Erlernen des Innenlebens einer PET-Flaschenfabrik und der Verfahren zur Herstellung von Vorformlingen, Flaschen und Gläsern auf PET-Basis.)'
     }
 ]
 const Work = () => {
   return (
     <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-55 py-16'>
-        <h1 className='text-4xl font-bold text-center text-[#001b5e'>Work</h1>
+        <h1 className='text-4xl font-bold text-center text-[#001b5e] mb-8'>Work</h1>
         {data.map((item, idx)=>(
             <WorkItem   key={idx} 
                         year={item.year} 
