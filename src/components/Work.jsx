@@ -7,28 +7,32 @@ const data=[
         title: 'IPPIN RAMEN RESTAURANT',
         place: 'Kaiserslautern, Deutschland',
         details:
-        'Küchenhilfe bei der Vorbereitung und Zubereitung von Ramen und Vorspeisen'
+        'Kitchen assistant in the preparation and cooking of ramen and starters'
+        // 'Küchenhilfe bei der Vorbereitung und Zubereitung von Ramen und Vorspeisen'
     },
     {
         year:  '07/2022-09/2022',
         title: 'RANDSTAD AMAZON',
         place: 'Kaiserslautern, Deutschland',
         details:
-        'Mitarbeiter in der Lagerlogistik'
+        'Sorter in Amazon DRP5'
+        // 'Mitarbeiter in der Lagerlogistik'
     },
     {
         year: '09/2021-03/2022',
         title: 'KL-TRONIK',
         place: 'Kaiserslautern, Deutschland',
         details:
-        'Praktikant und Hilfskraft in der Werkstatt (beschäftigte sich mit einer breiten Palette von elektrischen Projekten, einschließlich manueller Arbeit sowie Programmierung, Löten, Reparatur und Sortierung.) '
+        'Intern and workshop assistant (worked on a wide range of electrical projects, including manual work as well as programming, soldering, repair, and sorting).'
+        // 'Praktikant und Hilfskraft in der Werkstatt (beschäftigte sich mit einer breiten Palette von elektrischen Projekten, einschließlich manueller Arbeit sowie Programmierung, Löten, Reparatur und Sortierung.) '
     },
     {
         year: '10/2018-11/2018',
         title: ' PT.SARI MULTI UTAMA',
         place: 'Pasuruan, Indonesien',
         details:
-        'Praktikant (Erlernen des Innenlebens einer PET-Flaschenfabrik und der Verfahren zur Herstellung von Vorformlingen, Flaschen und Gläsern auf PET-Basis.)'
+        'Intern (Learned about the inner workings of a PET bottle factory and the processes used to produce PET-based preforms, bottles and jars).'
+        // 'Praktikant (Erlernen des Innenlebens einer PET-Flaschenfabrik und der Verfahren zur Herstellung von Vorformlingen, Flaschen und Gläsern auf PET-Basis.)'
     }
 ]
 const Work = () => {

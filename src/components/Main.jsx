@@ -12,12 +12,12 @@ const Main = () => {
         
 <div className='max-w-[500px] m-auto h-64 w-full flex flex-col justify-center lg:items-start items-center  '>         
      <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Alvin Jordan</h1>
-          <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 max-w-[1000px] '>
+          <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800 max-w-[500px] '>
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 "I'm_an electrical engineering student",
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                2000, // 
                 "I'm_passionate about 3D printing",
                 2000,
                 "I'm_diving into the world of biomedical engineering",/*exploring biomedical engineering.*/
@@ -28,17 +28,21 @@ const Main = () => {
               wrapper="div"
               cursor={true}
               speed={50}
-              style={{ fontSize: '1em', display: '5px', textAlign:'center' }}
+              style={{ fontSize: '1em', display: 'block', textAlign:'left' }}
               repeat={Infinity}
               
               
             />
           </h2>
-          <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-            <FaTwitter className='cursor-pointer' size={20}/>
-            <FaFacebookF className='cursor-pointer' size={20}/>
-            <FaInstagram className='cursor-pointer' size={20}/>
-            <FaLinkedinIn className='cursor-pointer' size={20}/>
+          <div className='flex justify-between pt-6 max-w-[50px] w-full'>
+            {/* <FaTwitter className='cursor-pointer' size={20}/>
+            <FaFacebookF className='cursor-pointer' size={20}/> */}
+            <a href='https://www.instagram.com/alvinjrjo/' target='_blank' rel='noopener noreferrer'>
+              <FaInstagram className='cursor-pointer' size={20} />
+            </a>
+            <a href='https://www.linkedin.com/in/aljo1001' target='_blank' rel='noopener noreferrer'>
+              <FaLinkedinIn className='cursor-pointer' size={20} />
+            </a>
           </div>
         </div>
         

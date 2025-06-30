@@ -4,6 +4,8 @@ import { TypeAnimation } from 'react-type-animation'
 import dpImg from '../assets/images/dp.jpg'
 import guiImg from '../assets/images/gui.jpg'
 import solderingImg from '../assets/images/soldering.jpg'
+import medimintImg from '../assets/images/loginpage.png'
+
 
 const Projects = () => {
   return (
@@ -36,6 +38,7 @@ const Projects = () => {
           <ProjectsItem img={dpImg} title='3D Printings'></ProjectsItem>
           <ProjectsItem img={guiImg} title='GUI in Tkinter vs PyQt5'></ProjectsItem>
           <ProjectsItem img={solderingImg} title='personal projects'></ProjectsItem>
+          <ProjectsItem img={medimintImg} title='Bachelor Thesis'></ProjectsItem>
       
         
 
